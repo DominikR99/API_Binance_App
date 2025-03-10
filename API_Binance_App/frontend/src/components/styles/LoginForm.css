@@ -1,0 +1,58 @@
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.login-form input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: calc(100% - 20px); 
+  margin: 10px; 
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.testnet-checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px; 
+  font-size: 14px;
+  color: #333;
+}
+
+.testnet-checkbox input {
+  margin-right: 0;
+}
+
+.testnet-checkbox label {
+  cursor: pointer;
+  margin-right: 100px;
+  margin-left: -80px;
+}

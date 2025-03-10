@@ -1,0 +1,54 @@
+.test-strategy-modal {
+    max-width: 600px; /* Maksymalna szerokość modala */
+    max-height: 80vh; /* Maksymalna wysokość modala */
+    overflow-y: auto; /* Włączenie przewijania w pionie */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000;
+  }
+  
+  .test-strategy-modal table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .test-strategy-modal th,
+  .test-strategy-modal td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .test-strategy-modal t4{
+    text-align: center;
+  }
+  
+  .test-strategy-modal th {
+    background-color: #f9f9f9;
+  }
+  
+  .test-strategy-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .test-results {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .strategy-params {
+    text-align: center;
+  }
+  
+  body.modal-open {
+    overflow: hidden; /* Blokowanie przewijania strony głównej */
+  }
+  

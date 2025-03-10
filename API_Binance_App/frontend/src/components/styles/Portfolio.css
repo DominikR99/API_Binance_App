@@ -1,0 +1,73 @@
+/* styles/Portfolio.css */
+
+/* Styl kontenera dla całego komponentu Portfolio */
+
+  
+  /* Styl nagłówka */
+  .portfolio-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styl dla przycisku */
+  .portfolio-container button {
+    background-color: #007bff; /* Niebieski przycisk */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .portfolio-container button:disabled {
+    background-color: #cccccc; /* Kolor dla wyłączonego przycisku */
+    cursor: not-allowed;
+  }
+  
+  .portfolio-container button:hover {
+    background-color: #0056b3; /* Ciemniejszy odcień przy hover */
+    transform: scale(1.05);
+  }
+  
+  /* Styl komunikatu o błędzie */
+  .portfolio-container .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Styl dla sekcji danych portfela */
+  .portfolio-container h3 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .portfolio-container ul {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .portfolio-container ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styl dla wartości aktywów w USDT */
+  .portfolio-container ul li span {
+    font-weight: bold;
+    color: #007bff; /* Niebieski dla wartości */
+  }
+  

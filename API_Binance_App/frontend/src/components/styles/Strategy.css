@@ -1,0 +1,70 @@
+.strategy-config {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.strategy-container {
+    padding: 20px;
+  }
+
+.strategy-field {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.strategy-field label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.strategy-field select {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.strategy-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-button, .test-button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: #4CAF50;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+.start-button:disabled {
+    background-color: #a5d6a7;
+    cursor: not-allowed;
+}
+
+.test-button {
+    background-color: #007bff;
+
+}
+
+.test-button:disabled {
+    background-color: #ef9a9a;
+    cursor: not-allowed;
+}
+
+.view-params-modal {
+    text-align: center;
+}
+
+.strategy-form h3{
+    text-align: center;
+}

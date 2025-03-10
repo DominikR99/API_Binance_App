@@ -1,0 +1,92 @@
+.strategy-table-container {
+    margin: 20px 0;
+}
+
+.strategy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.strategy-table th,
+.strategy-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.strategy-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.action-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.test-strategy-modal,
+.view-params-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.close-button {
+    margin-top: 10px;
+    background-color: #e53e3e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.test-strategy-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cancel-button {
+    background-color: #e53e3e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: #c53030;
+}
+
+.test-results {
+    margin-top: 20px;
+  }
+  
+  .test-results table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .test-results th, .test-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }

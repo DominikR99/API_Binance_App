@@ -1,0 +1,80 @@
+/* styles/DataAnalysisModule.css */
+
+
+
+/* Nagłówek główny */
+.data-analysis-module h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styl dla kontrolek */
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Każde pole wyboru kontrolki */
+.controls label {
+  font-size: 14px;
+  color: #333;
+}
+
+.controls select,
+.controls input,
+.controls button {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Wygląd przycisku */
+.controls button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Styl wykresu */
+.chart-container {
+  margin-top: 20px;
+}
+
+/* Widoczność komunikatów ładowania */
+.chart-container p {
+  text-align: center;
+  color: #888;
+}
+
+/* Stylowanie wykresów */
+.apexcharts-canvas {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylowanie wykresu RSI */
+.rsi-chart {
+  margin-top: 30px;
+}
+
+/* Responsywność dla mniejszych ekranów */
+@media (max-width: 768px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .controls label {
+    margin-bottom: 10px;
+  }
+}
